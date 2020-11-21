@@ -52,7 +52,7 @@ body{
 	width: 240px;
 	padding: 0 20px;
 	padding-bottom: 15px;
-	float: right;
+	float: left;
 }
 
 .location,.temperature{
