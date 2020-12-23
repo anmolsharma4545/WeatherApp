@@ -14,6 +14,12 @@ body{
 	font-family: Poppins,sans-serif;
 	color: white;
 }
+.wrapper{
+	border: 2px solid #fff;
+	border-radius: 30px;
+	padding: 60px;
+	background: linear-gradient(#4568dc,#b06ab3);
+}
 .input{
 	margin: 10px 20px;
 	background: #2f3640;
@@ -57,18 +63,24 @@ body{
 
 .location,.temperature{
 	height: 30vh;
-	width:50%;
+	width:100%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	background-color: #43c6ac;
 }
 
 .temperature{
 	flex-direction: column;
+	background-color: #1d976c;
+	width:100%;
 }
 .temperature-description{
-	font-size: 18px;
+	font-size: 20px;
 	text-transform: uppercase;
+	background-color: #1f1c2c;
+	width:100%;
+	text-align: center;
 }
 
 .degree-section{
@@ -87,9 +99,11 @@ body{
 
 footer{
 	margin-top: 100px;
+	background-color: #dd5e89;
+	padding-left: 20px;
 }
 footer h3{
 	font-family: Bradley Hans,cursive;
-	font-size: 14px;
+	font-size: 20px;
 	font-weight: lighter;
 }
