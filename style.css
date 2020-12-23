@@ -107,3 +107,10 @@ footer h3{
 	font-size: 20px;
 	font-weight: lighter;
 }
+
+@media screen and (max-width:1400px){
+	.wrapper{
+		width:100%;
+	}
+
+}
