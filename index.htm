@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<!--External Style-sheet-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	
+</head>
+<body class="red lighten-5 black-text">
+		<nav>
+			<div class="nav-wrapper center-align blue lighten-2">
+				<a href="#" class="brand-logo ">Weather_App</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+				</ul>
+			</div>
+		</nav>
+		<div class="container center-align ">
+				<div class=" section center-align row ">
+					<div class="input-field col s12  ">
+						<input id="text" type="text" class="validate inputvalue col s11">
+						<label for="text">Enter City:</label>
+						<a class="btn-floating btn-large waves-effect waves-light blue lighten-2 button col  "><i class="material-icons">search</i></a>
+					</div>
+				</div>	
+					<div class="section col green lighten-4 card-panel">
+					<h2 class="temperature-degree col s2 ">34</h2>
+					<h2 class="temperature-degree-fahrenheit col s3 ">34</h2>
+					<p class="temperature-description col s4">It`s Cold.</p>
+				</div>
+				<div class="section col blue lighten-2 card-panel">
+					<img src="" alt="icon" class="icon waves-circle responsive-img btn-floating btn-large disabled waves-effect waves-light ">
+					<h2 class="location">New York, US</h2>
+						<p class="feel">Feels-like&nbsp;<h4 class="feelslike"></h4></p>
+						<p class="visible">visibility km&nbsp;<h4 class="visibility"></h4></p>
+						<p class="wind">Wind kph&nbsp;<h4 class="winds"></h4></p>
+						<p class="windd">Wind Direction&nbsp;<h4 class="winddir"></h4></p>
+						<p class="windde">Wind Degree &nbsp;<h4 class="winddeg"></h4></p>
+						<p class="humid">Humidity&nbsp;<h4 class="humidity"></h4></p>
+						<p class="index">UV Index&nbsp;<h4 class="uvindex"></h4></p>
+						<p class="dew">Dewpoint_c&nbsp;<h4 class="dewpoint"></h4></p>
+						<p class="heat">Heat Index&nbsp;<h4 class="heatindex"></h4></p>
+						<p class="rain">Rain Precipitation_mm&nbsp;<h4 class="precip"></h4></p>
+						<p class="press">Pressure_in&nbsp;<h4 class="pressure"></h4></p>
+						
+				</div>
+				
+			
+
+			
+
+				
+			
+
+
+		</div>
+<footer class="page-footer blue lighten-2 " >
+	<div class="footer-copyright blue lighten-2">
+		<div class="container ">
+			<h6>Design and Copyright &copy; WeatherApp</h6>
+		<a class="grey-text text-lighten-4 right" href="#!">Anmol Sharma</a>
+		</div>
+	  </div>
+</footer>
+</body>
+<script src="App.js"></script>
+	<!-- Compiled and minified JavaScript -->
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+</html>
